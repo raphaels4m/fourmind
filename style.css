@@ -145,6 +145,38 @@ header{
   animation-play-state: paused;
 }
 
+.ferramentas img{
+  width: 50px;
+}
+
+.ferramentas{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.explicando_mkt .conteudo{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.explicando_mkt .conteudo video{
+  width: 400px;
+}
+
+.explicando_mkt .conteudo .txt{
+  width: 700px;
+  color: white;
+  font-family: "Just Sans", sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 20px;
+}
+
+.redes_sociais img{
+  width: 30px;
+}
+
 @keyframes scroll{
   from{
     transform: translateX(0);
